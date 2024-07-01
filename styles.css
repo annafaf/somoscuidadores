@@ -1,0 +1,169 @@
+/* Estilo para o grupo de inputs */
+.input-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os grupos de inputs */
+}
+
+/* Estilo para cada item de input */
+.input-item {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+/* Estilo para cada label e input */
+.input-group label,
+.input-group input {
+    margin: 5px;
+}
+
+/* Estilo para o input */
+.input-gigante {
+    width: 64vw; /* Largura específica para o input */
+    padding: 60px; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da fonte */
+    margin: 5px; /* Espaçamento externo */
+    border-radius: 6px; /* Bordas arredondadas */
+    border: 1px solid #0f0e0e; /* Borda cinza clara */
+    background-color: #dfdfe2; /* Cor de fundo cinza */
+} 
+
+/* Estilo para o input */
+.input-big {
+    width: 70vw; /* Largura específica para o input */
+    padding: 8px; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da fonte */
+    text-align: left;
+    margin: 5px; /* Espaçamento externo */
+    border-radius: 6px; /* Bordas arredondadas */
+    border: 1px solid #0f0e0e; /* Borda cinza clara */
+    background-color: #dfdfe2; /* Cor de fundo cinza */
+} 
+
+/* Estilo para o input */
+.input-nome {
+    width: 68vw; /* Largura específica para o input */
+    padding: 8px; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da fonte */
+    text-align: left;
+    margin: 5px; /* Espaçamento externo */
+    border-radius: 6px; /* Bordas arredondadas */
+    border: 1px solid #0f0e0e; /* Borda cinza clara */
+    background-color: #dfdfe2; /* Cor de fundo cinza */
+} 
+
+/* Estilo para o input */
+.input-grande {
+    width: 350px; /* Largura específica para o input */
+    padding: 8px; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da fonte */
+    margin: 5px; /* Espaçamento externo */
+    border-radius: 6px; /* Bordas arredondadas */
+    border: 1px solid #0f0e0e; /* Borda cinza clara */
+    background-color: #dfdfe2; /* Cor de fundo cinza */
+} 
+
+/* Estilo para o input */
+.input-medio {
+    width: 250px; /* Largura específica para o input */
+    padding: 8px; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da fonte */
+    margin: 5px; /* Espaçamento externo */
+    border-radius: 6px; /* Bordas arredondadas */
+    border: 1px solid #0f0e0e; /* Borda cinza clara */
+    background-color:#dfdfe2; /* Cor de fundo cinza */
+} 
+
+/* Estilo para o input */
+.input-mini {
+    width: 150px; /* Largura específica para o input */
+    padding: 8px; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da fonte */
+    margin: 5px; /* Espaçamento externo */
+    border-radius: 6px; /* Bordas arredondadas */
+    border: 1px solid #0f0e0e; /* Borda cinza clara */
+    background-color: #dfdfe2; /* Cor de fundo cinza */
+} 
+
+/* Estilos específicos para o botão */
+button {
+    background-color: #9593e8; /* Cor de fundo roxa */
+    color: white; /* Cor do texto branca */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    border-radius: 5px; /* Cantos arredondados */
+    }
+  
+/* Estilo para o botão Confirmar */
+.btn-confirmar {
+    background-color: #9593e8; /* Cor de fundo roxa */
+    color: white; /* Cor do texto branca */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+/* Estilo para o botão Salvar */
+.btn-salvar {
+    background-color: #9593e8; /* Cor de fundo roxa */
+    color: white; /* Cor do texto branca */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    border-radius: 5px; /* Cantos arredondados */
+    width: 16vw;
+}
+
+/* Estilo para o botão Editar */
+.btn-editar {
+    background-color: #1babd8; /* Cor de fundo azul */
+    color: white; /* Cor do texto branca */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+/* Estilo para o botão Cancelar */
+.btn-cancelar {
+    background-color: #9593e8; /* Cor de fundo roxa */
+    color: white; /* Cor do texto branca */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    border-radius: 5px; /* Cantos arredondados */
+    width: 15vw;
+}
+
+/* Estilo para o botão Upload */
+.btn-upload {
+    background-color: #1babd8; /* Cor de fundo azul */
+    color: white; /* Cor do texto branca */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    border-radius: 5px; /* Cantos arredondados */
+    width: 15vw;
+}
+
+/* Estilo para o botão Retornar */
+.btn-retornar {
+    background-color: #9593e8; /* Cor de fundo roxa */
+    color: white; /* Cor do texto branca */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    border-radius: 5px; /* Cantos arredondados */
+    width: 24vw;
+}

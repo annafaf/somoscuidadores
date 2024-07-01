@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro - Profissional da Saúde</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div style="text-align: center";>
+        <h1>Sou um Profissional da Saúde</h1>
+        <h2>Editando...</h2>
+
+        <form action="processar_cadastro.php" method="post">
+            <div class="input-group">
+                <div class="input-item">
+                    <label for="nome-completo">Nome Completo do Profissional:</label>                
+                    <input class="input-big" type="text" id="nome-completo" name="nome_completo" required>
+                </div>
+            </div>
+    
+            <div class="input-group">
+                <div class="input-item">
+                    <label for="cpf">CPF:</label>
+                    <input class="input-medio" type="text" id="cpf" name="cpf" required>
+                </div>
+                <div class="input-item">
+                    <label for="data-nascimento">Data de Nascimento:</label>
+                    <input class="input-medio" type="date" id="data-nascimento" name="data_nascimento" required>
+                </div>
+                <div class="input-item">
+                    <label for="genero">Gênero:</label>
+                    <input class="input-mini" type="text" id="genero" name="genero" required>
+                </div>
+                <div class="input-item">
+                    <label for="crm">Número do CRM:</label>
+                    <input class="input-medio" type="text" id="crm" name="crm" required>
+                </div>
+            </div>            
+            
+            <div class="input-group">
+                <div class="input-item">                   
+                    <label for="endereco">Endereço Completo:</label>                    
+                    <input class="input-big" class="input-big" type="text" id="endereco" name="endereco" required>
+                </div>
+            </div>
+    
+            <div class="input-group">
+                <div class="input-item">                
+                    <label for="telefone">Telefone:</label>                    
+                    <input class="input-medio" type="tel" id="telefone" name="telefone" required>
+                </div>
+                <div class="input-item">    
+                    <label for="email">Email:</label>                    
+                    <input class="input-grande" type="email" id="email" name="email" required>
+                </div>    
+                <div class="input-item">     
+                    <label for="formacao">Formação:</label>                   
+                    <input class="input-medio" type="text" id="formacao" name="formacao" required>                    
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <div class="input-item">                   
+                    <label for="especialidade">Especialidade:</label>                    
+                    <input class="input-medio" type="text" id="especialidade" name="especialidade" required>
+                </div>    
+                <div class="input-item">     
+                    <label for="local-atuacao">Local de Atuação:</label>                   
+                    <input class="input-grande" type="text" id="local-atuacao" name="local_atuacao" required>
+                </div>    
+                <div class="input-item"> 
+                    <label for="tipo-convenio">Tipo de Convênio:</label>                   
+                    <input class="input-medio" type="text" id="tipo-convenio" name="tipo_convenio" required>                    
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <div class="input-item">                    
+                    <label for="experiencia">Experiência Profissional:</label>
+                    <input class="input-gigante" type="text" id="experiencia" name="experiencia" required>                    
+                </div>
+            </div>
+    
+            <div>
+                <br>
+                <button class="btn-salvar" type="submit">SALVAR</button>                
+                <br>
+            </div>
+        </form>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div style="text-align: center";>
+        
+        <br>
+    <img src="cuidadoridoso.jpg" alt="Imagem de check" width="300" height="200">
+    <br>
+
+    <form action="processar_cadastro.php" method="post">
+        <div class="input-group">
+            <div class="input-item">
+                <label for="usuario">Usuário:</label>
+                <input class="input-grande" type="text" id="usuario" name="usuario" required>
+            </div>
+        </div>    
+        <div class="input-group">   
+            <div class="input-item">
+                <label for="senha">Senha:</label>
+                <input class="input-grande" type="password" id="senha" name="senha" required>
+            </div>         
+        </div>        
+        
+        <a href="/recuperarsenha.html">Esqueci minha senha</a>
+            
+        <p>Quero me cadastrar como:</p>
+        <br>
+        <label>
+            <input type="radio" name="singleOption" value="option1" required>
+            Profissional da Saúde
+        </label>
+        
+        <label>
+            <input type="radio" name="singleOption" value="option2">
+            Familiar/Paciente
+        </label>
+        
+        <label>
+            <input type="radio" name="singleOption" value="option3">
+            Cuidador
+        </label>
+        <br>
+        
+        <br><br>
+        <button type="submit">Login</button>
+        <br><br>
+
+    </form>
+    </div>
+</body>
+</html>
+    </form>
+</body>
+</html>

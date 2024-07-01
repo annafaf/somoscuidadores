@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro - Paciente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Sou um Paciente</h1>
+        <h2>Editando...</h2>
+
+        <form action="processar_cadastro.php" method="post">
+            <div class="input-group">
+                <div class="input-item">
+                    <label for="nome-completo">Nome Completo do Paciente:</label>                
+                    <input class="input-nome" type="text" id="nome-completo" name="nome_completo" required>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <div class="input-item">
+                    <label for="cpf">CPF:</label>
+                    <input class="input-medio" type="text" id="cpf" name="cpf" required>
+                </div>
+                <div class="input-item">
+                    <label for="data-nascimento">Data de Nascimento:</label>
+                    <input class="input-medio" type="date" id="data-nascimento" name="data_nascimento" required>
+                </div>
+                <div class="input-item">
+                    <label for="genero">Gênero:</label>
+                    <input class="input-mini" type="text" id="genero" name="genero" required>
+                </div>
+                <div class="input-item">
+                    <label for="telefone">Telefone:</label>
+                    <input class="input-medio" type="text" id="telefone" name="telefone" required>
+                </div>
+            </div> 
+
+            <div class="input-group">
+                <div class="input-item"> 
+                    <label for="enfermidade">Enfermidade/Doença:</label>
+                    <input class="input-nome" type="text" id="enfermidade" name="enfermidade" required>
+                </div>
+                <div class="input-item"> 
+                    <label for="consulta">Consulta/Exame/Cirurgia:</label>
+                    <input class="input-nome" type="text" id="consulta" name="consulta" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-item"> 
+                    <label for="convenio">Tipo de Convênio:</label>
+                    <input class="input-medio" type="text" id="convenio" name="convenio" required>
+                </div>  
+
+                <div class="input-item"> 
+                    <label for="nome-responsavel">Nome do Responsável:</label>
+                    <input class="input-grande" type="text" id="nome-responsavel" name="nome_responsavel" required>
+                </div>    
+
+                <div class="input-item"> 
+                    <label for="cpf-responsavel">CPF do Responsável:</label>
+                    <input class="input-medio" type="text" id="cpf-responsavel" name="cpf_responsavel" required>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <div class="input-item"> 
+                    <label for="telefone-responsavel">Telefone do Responsável:</label>
+                    <input class="input-medio" type="text" id="telefone-responsavel" name="telefone_responsavel" required>
+                </div>
+
+                <div class="input-item"> 
+                    <label for="endereco-responsavel">Endereço do Responsável:</label>
+                    <input class="input-grande" type="text" id="endereco-responsavel" name="endereco_responsavel" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-item"> 
+                    <label for="profissional-responsavel">Profissional Responsável:</label>
+                    <input class="input-grande" type="text" id="profissional-responsavel" name="profissional_responsavel" required>
+                </div>
+                <div class="input-item"> 
+                    <label for="cuidador">Cuidador:</label>
+                    <input class="input-grande" type="text" id="cuidador" name="cuidador" required>
+                </div>
+            </div>
+
+            <div>
+                <br>
+                <button class="btn-confirmar" type="submit">Confirmar</button>
+                <button class="btn-editar" type="button" onclick="window.location.href='/editardadospaciente.html'">Editar</button>
+                <br>
+            </div>        
+        </form>
+    </div>
+</body>
+</html>
